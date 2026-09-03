@@ -1,0 +1,8 @@
+{
+	"custom/gpu": {
+		"exec": "~/.config/waybar/scripts/gpu-status.sh",
+		"return-type": "json",
+		"interval": 5,
+		"tooltip": true
+	}
+}

@@ -1,0 +1,18 @@
+/* Generado por matugen -- no editar a mano, editar templates/mechabar.css.
+ * Reemplaza a themes/catppuccin-*.css de mechabar (waybar/.config/waybar/):
+ * define las mismas 13 variables semanticas que consume style.css, mapeadas
+ * a roles Material You en vez de una paleta fija. */
+@define-color accent   {{colors.primary.default.hex}};
+@define-color fg       {{colors.on_surface.default.hex}};
+@define-color bg-0     {{colors.surface_container_lowest.default.hex}};
+@define-color bg-1     {{colors.surface_container_low.default.hex}};
+@define-color bg-2     {{colors.surface_container.default.hex}};
+@define-color bg-3     {{colors.surface_container_high.default.hex}};
+@define-color br       {{colors.outline.default.hex}};
+@define-color shadow   shade(@bg-0, 0.75);
+
+@define-color warning  {{colors.tertiary_container.default.hex}};
+@define-color critical {{colors.error.default.hex}};
+@define-color charging {{colors.tertiary.default.hex}};
+@define-color hover-bg @bg-1;
+@define-color hover-fg alpha(@fg, 0.75);
